@@ -1,5 +1,5 @@
 def servicePath = 'services/ui/angular'
-def imageRepo = 'mrcoveros/ui'
+def imageRepo = 'gliang1/ui'
 node {
     stage('cleanup') { // should be in the beginning of the pipeline
         cleanWs() // clean workspace - ensures every time we build it, we pull the latest dependencies since we cleaned workspace
